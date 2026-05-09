@@ -34,7 +34,12 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
    cd Forge-Edupulse
    ```
 
-2. **Install dependencies:**
+2. **Navigate to the frontend directory:**
+   ```bash
+   cd frontend
+   ```
+
+3. **Install dependencies:**
    ```bash
    npm install
    # or
@@ -43,15 +48,15 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
    pnpm install
    ```
 
-3. **Set up Environment Variables:**
-   Create a `.env.local` file in the root directory and add your Supabase credentials:
+4. **Set up Environment Variables:**
+   Create a `.env.local` file in the `frontend` directory and add your Supabase credentials:
    ```env
    NEXT_PUBLIC_SUPABASE_URL=your_supabase_project_url
    NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
    ```
    *(Note: Do not commit your `.env.local` file. It is already safely ignored in `.gitignore`.)*
 
-4. **Run the Development Server:**
+5. **Run the Development Server:**
    ```bash
    npm run dev
    # or
