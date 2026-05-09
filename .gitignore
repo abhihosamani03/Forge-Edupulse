@@ -33,6 +33,7 @@ dist/
 .parcel-cache/
 .eslintcache
 .stylelintcache
+*.tsbuildinfo
 
 # --- IDEs & EDITORS ---
 .vscode/
